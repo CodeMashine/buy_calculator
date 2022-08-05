@@ -1,0 +1,32 @@
+.modal {
+    height : 100% ;
+    width : 100% ;
+    background-color : rgba(0,0,0,0.4) ;
+    position: fixed ;
+    top:0 ;
+    left:0 ;
+    display : flex ;
+    justify-content:center ;
+    align-items:center ;
+    pointer-events: none;
+    opacity: 0;
+    transition:0.5s ;
+}
+
+.visible{
+    opacity: 1;
+    pointer-events: all;
+}
+
+
+.modalContent{
+    background-color: rgb(247, 213, 88);
+    border-radius: 10%;
+    transition:0.5s ;
+    transform:scale(0.5) ;
+    transition:0.4s all ;
+}
+
+.modalContentVisible{
+    transform:scale(1) ;
+}

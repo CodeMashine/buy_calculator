@@ -1,0 +1,18 @@
+.button{
+    background-color: inherit;
+    border-radius: 25%;
+    margin-left: 2%;
+}
+
+.btnBlock{
+    margin-top:3% ;
+    margin-bottom:3% ;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btnBlock button{
+    border-radius: 20%;
+    background-color: red;
+    font-weight: bolder;
+}

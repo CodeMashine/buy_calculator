@@ -1,0 +1,58 @@
+/* *{
+    margin:0 ;
+    padding:0 ;
+} */
+
+.main{
+    background-color:rgb(39, 130, 175) ;
+    width: 60%;
+    border-radius: 1em;
+}
+
+.table{
+    /* border-collapse: collapse; */
+    /* table-layout: fixed; */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    empty-cells:hide ;
+}
+
+.table td,th{
+    border:2px black solid ;
+    border-radius:20%;
+}
+
+.table input{
+    width : 90% ;
+}
+
+.addButton{
+    margin-left:auto ;
+    margin-right: 1em;
+    /* display:inline-block ; */
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+}
+
+.addButton span{
+    display:flex ; 
+    align-items:center ;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 4em;
+    font-weight: bolder;
+}
+
+.addButtonBlock{
+    margin-top:2% ;
+    /* margin-bottom:5% ; */
+    display:flex ;
+    height:2em ;
+
+}

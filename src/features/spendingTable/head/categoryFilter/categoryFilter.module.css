@@ -1,0 +1,14 @@
+.select{
+    background-color : inherit ;
+    font-weight: bolder;
+    border:none ;
+    /* select select-bordered select-sm w-full max-w-xs */
+}
+
+.option{
+    background-color: inherit;
+}
+
+.hidden {
+    display:none ;
+}
