@@ -7,12 +7,13 @@ import styles from "./App.module.css";
 
 function App() {
   return (
-    <div className={styles.main}>
+    <div 
+    data-theme="dark"
+    className={styles.main}>
         <Diagram />
 
         <SpendingTable />
     </div>
-
   );
 }
 

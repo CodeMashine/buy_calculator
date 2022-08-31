@@ -1,7 +1,8 @@
-.select{
-    background-color : inherit ;
-    font-weight: bolder;
-    border:none ;
+.selector{
+    @apply select select-bordered w-full max-w-xs;
+    /* background-color : inherit ; */
+    /* font-weight: bolder; */
+    /* border:none ; */
     /* select select-bordered select-sm w-full max-w-xs */
 }
 
@@ -12,3 +13,4 @@
 .hidden {
     display:none ;
 }
+

@@ -20,7 +20,8 @@
 
 
 .modalContent{
-    background-color: rgb(247, 213, 88);
+    /* background-color: rgb(247, 213, 88); */
+    background-color: rgb(42, 48, 60) ;
     border-radius: 10%;
     transition:0.5s ;
     transform:scale(0.5) ;

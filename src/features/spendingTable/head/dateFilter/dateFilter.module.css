@@ -12,7 +12,10 @@
 }
 
 .btnBlock button{
+  @apply btn btn-outline btn-sm;
+    /* color:white ;
+    width:5.5rem ;
     border-radius: 20%;
-    background-color: red;
-    font-weight: bolder;
+    background-color:rgb(33, 38, 48);
+    font-weight: bolder; */
 }

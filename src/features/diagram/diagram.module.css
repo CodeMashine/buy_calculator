@@ -3,6 +3,7 @@
     padding :0 ;
 } */
 .diagram{ 
+    color:white ;
     width: 60%;
     height: 40%;
     margin-left:auto;
@@ -12,7 +13,7 @@
      /* display:flex ;
     flex-direction: column;
     align-items:center ;  */
-    background-color: white;
+    background-color:rgb(115, 126, 150 , 0.1) ;
  }
 
 .hide{

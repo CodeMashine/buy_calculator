@@ -3,13 +3,15 @@
     padding:0 ;
 } */
 
+
 .main{
-    background-color:rgb(39, 130, 175) ;
+    /* background-color:rgb(39, 130, 175) ; */
     width: 60%;
-    border-radius: 1em;
+    /* border-radius: 1em; */
 }
 
-.table{
+.Table{
+    @apply table-compact w-full ;
     /* border-collapse: collapse; */
     /* table-layout: fixed; */
     width: 100%;
@@ -17,27 +19,38 @@
     margin-right: auto;
     text-align: center;
     empty-cells:hide ;
+    border-style: none;
 }
 
-.table td,th{
+.Table td,th{
     border:2px black solid ;
-    border-radius:20%;
+    /* @dhover ; */
+    /* border-radius:20%; */
 }
 
 .table input{
     width : 90% ;
 }
 
-.addButton{
-    margin-left:auto ;
-    margin-right: 1em;
-    /* display:inline-block ; */
-    width: 4em;
-    height: 4em;
-    border-radius: 50%;
+.addButtonBlock{
+    display:flex ;
+    margin-top:2% ;
+    /* margin-bottom:5% ; */
+    /* display:flex ; */
+    /* height:2em ; */
 }
 
-.addButton span{
+.addButton{
+    @apply btn btn-circle btn-outline ;
+    margin-left:auto !important ;
+    margin-right: 1em;
+    margin-bottom:1em ;
+    /* width: 4em; */
+    /* height: 4em; */
+    /* border-radius: 50%; */
+}
+
+/* .addButton span{
     display:flex ; 
     align-items:center ;
     justify-content: center;
@@ -47,12 +60,4 @@
     text-align: center;
     font-size: 4em;
     font-weight: bolder;
-}
-
-.addButtonBlock{
-    margin-top:2% ;
-    /* margin-bottom:5% ; */
-    display:flex ;
-    height:2em ;
-
-}
+} */

@@ -69,8 +69,9 @@ export default function Diagram() {
                         datasets: [{
                             label: label,
                             data: data,
-                            backgroundColor: "red",
+                            backgroundColor: `rgba(0,0,0,0.5)`,
                             borderColor: "black",
+                            color:"white" ,
                             fill: 'true',
                             borderWidth: 1,
                         }

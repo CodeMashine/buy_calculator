@@ -67,7 +67,6 @@ export default function Body (){
                      break ;
             }
            acc.push(output) ;
-               
         }
     } ;
     return acc ;

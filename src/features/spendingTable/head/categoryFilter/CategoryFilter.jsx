@@ -33,19 +33,19 @@ useEffect (()=>{
 
 function changeCategory(e){
         console.log(e.target.innerText) ;
-        setChosen(e.target.innerText) ;
-        dispatch(chooseCategory(e.target.innerText)) ;
-        // setChosen(e.target.value) ;
-        // dispatch(chooseCategory(e.target.value)) ;
+        // setChosen(e.target.innerText) ;
+        // dispatch(chooseCategory(e.target.innerText)) ;
+        setChosen(e.target.value) ;
+        dispatch(chooseCategory(e.target.value)) ;
         setHidden(true) ;
 }
 
 // let children =
 
 
-return <span>
-    {chosen} <button>...</button>
-</span>
+// return <span>
+//     {chosen} <button>...</button>
+// </span>
 
 
 //  return <ul>
@@ -58,14 +58,14 @@ return <span>
 // </ul>
 
 
-// return( <select 
-//     // className = {styles.select}
-//     className = 'select select-bordered select-sm w-full max-w-xs'
-//      onChange= {changeCategory} 
-// >
-//     <option defaultValue = {chosen}  hidden> {chosen} </option>
-//     {categories.map(item=>{
-//         return <option className={styles.option} key={nanoid()} value={item}>{item}</option>
-// })}
-// </select>)
+return( <select 
+    className = {styles.selector}
+    // className = 'select select-bordered select-sm w-full max-w-xs hover'
+     onChange= {changeCategory} 
+>
+    <option defaultValue = {chosen}  hidden> {chosen} </option>
+    {categories.map(item=>{
+        return <option className={styles.option} key={nanoid()} value={item}>{item}</option>
+})}
+</select>)
 }
