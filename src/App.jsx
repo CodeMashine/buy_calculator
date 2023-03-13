@@ -8,7 +8,7 @@ import styles from "./App.module.css";
 function App() {
   return (
     <div 
-    data-theme="dark"
+    data-theme="light"
     className={styles.main}>
         <Diagram />
 

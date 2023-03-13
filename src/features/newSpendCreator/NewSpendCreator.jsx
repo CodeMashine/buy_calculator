@@ -61,7 +61,7 @@ export default function NewSpendCreator(props) {
                 </tr>
                 <tr>
                     <td>
-                        {todayDate} <button onClick={() => {changeVisible(true)}}> . </button>
+                       <button onClick={() =>{changeVisible(true)}}> {todayDate}  </button>
                         <Modal
                             visible = {visible}
                             changeVisible = {changeVisible}
